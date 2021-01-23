@@ -13,10 +13,10 @@
  
 ### Pemrosesan data Elektronik
 	Terdapat 4 pemrosesan data elektronik :
-	*Penyimpanan Data
-	*Penerimaan Data
-	*Transmisi Data
-	*Manipulasi Data
+	* Penyimpanan Data
+	* Penerimaan Data
+	* Transmisi Data
+	* Manipulasi Data
 
 ## Software Development
 **Software Development** merupakan proses memahami,menentukan,merancang,memprogram,mendokumentasikan,menguji dan memperbaiki bug yang terlibat dalam pembuatan dan pemeliharaan aplikasi, kerangka kerja,
@@ -25,11 +25,12 @@ atau untuk pribadi, semisal ilmuwan dapat membuat perangkat lunak untuk mengotom
 digunakan untuk mengontrol produkk konsumen,memerlukan proses pengembangan untuk dintegrasikan dengan pengembangan produk fisik yang dikendalikan. Ada banyak pendekatan untuk MPPL yang dikenal sebagai siklus
 hidup pengembangan perangkat lunak, seperti waterfal methodology software development yang merupakan methodology tradisional dibanding dengan methodology pengembangan perangkat lunak lainnya.
 Sebagian besar metodology terbagi dari beberapa kombinasi dari tahapan pengembangan perangkat lunak:
-	*Menganalisis masalahnya
-	*Riset pasar
-	*Mengumpulkan persyaratan untuk perangkat lunak yang diusulkan
-	*Merancang rencana atau desain untuk perangkat lunak
-	*Implementasi perangkat lunak
-	*Menguji Perangkat Lunak
-	*Maintanance
+	
+	* Menganalisis masalahnya
+	* Riset pasar
+	* Mengumpulkan persyaratan untuk perangkat lunak yang diusulkan
+	* Merancang rencana atau desain untuk perangkat lunak
+	* Implementasi perangkat lunak
+	* Menguji Perangkat Lunak
+	* Maintanance
 **Proses Pengembangan Perangkat Lunak atau Methodology Perangkat Lunak**
