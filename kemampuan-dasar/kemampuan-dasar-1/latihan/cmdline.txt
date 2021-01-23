@@ -1,0 +1,20 @@
+1.cd, cd..
+2.cmd
+3.rm
+4.mkdir
+5.rmdir
+6.powercfg /batteryreport
+7.C:,D:,E:
+8.Dir
+9.ipconfig
+10.rename d:/picture/123170051.jpg 12318992.jpg
+11.move d:\kuliah\1231.doc c:\user\1231.doc
+12.list 
+13.del
+14.date
+15.copy 123170051_ds_Tugas3.docx review
+16.color
+17.help
+18.echo
+19.path
+20.--version
