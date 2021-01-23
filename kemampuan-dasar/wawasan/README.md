@@ -1,4 +1,4 @@
-#Ruang Lingkup Pengembangan Software
+# Ruang Lingkup Pengembangan Software
 
 ## Teknologi Informasi
  ** Teknologi Informasi** merupakan suatu bidang minat yang berhubungan dengan komputer yang memiliki fungsi untuk menyimpan,mengambil,mengirimkan dan memanipulasi data atau informasi
@@ -18,9 +18,9 @@
 	*Transmisi Data
 	*Manipulasi Data
 
-##Software Development
+## Software Development
 **Software Development** merupakan proses memahami,menentukan,merancang,memprogram,mendokumentasikan,menguji dan memperbaiki bug yang terlibat dalam pembuatan dan pemeliharaan aplikasi, kerangka kerja,
-atau komponen perangkat. Perangkat Lunak dikembangkan untuk berbagai tujuan, tiga yang paling umum untuk memenuhi kebutuhan spesific client, untuk memenuhi kebutuhan yang dirasakan oleh pengguna potensial,
+atau komponen perangkat. Orang yang berkecimpung didalam dunia Software development disebut software engineer. Perangkat Lunak dikembangkan untuk berbagai tujuan, tiga yang paling umum untuk memenuhi kebutuhan spesific client, untuk memenuhi kebutuhan yang dirasakan oleh pengguna potensial,
 atau untuk pribadi, semisal ilmuwan dapat membuat perangkat lunak untuk mengotomatiskan tugas biasa.**Pengembangan Perangkat Lunak Tertanam** yaitu penegembangan perangkat lunak tertanam, speperti yang
 digunakan untuk mengontrol produkk konsumen,memerlukan proses pengembangan untuk dintegrasikan dengan pengembangan produk fisik yang dikendalikan. Ada banyak pendekatan untuk MPPL yang dikenal sebagai siklus
 hidup pengembangan perangkat lunak, seperti waterfal methodology software development yang merupakan methodology tradisional dibanding dengan methodology pengembangan perangkat lunak lainnya.
