@@ -24,7 +24,8 @@ atau komponen perangkat. Orang yang berkecimpung didalam dunia Software developm
 atau untuk pribadi, semisal ilmuwan dapat membuat perangkat lunak untuk mengotomatiskan tugas biasa.**Pengembangan Perangkat Lunak Tertanam** yaitu penegembangan perangkat lunak tertanam, speperti yang
 digunakan untuk mengontrol produkk konsumen,memerlukan proses pengembangan untuk dintegrasikan dengan pengembangan produk fisik yang dikendalikan. Ada banyak pendekatan untuk MPPL yang dikenal sebagai siklus
 hidup pengembangan perangkat lunak, seperti waterfal methodology software development yang merupakan methodology tradisional dibanding dengan methodology pengembangan perangkat lunak lainnya.
-Sebagian besar metodology terbagi dari beberapa kombinasi dari tahapan pengembangan perangkat lunak:
+
+### tahapan pengembangan perangkat lunak:
 	
 	* Menganalisis masalahnya
 	* Riset pasar
