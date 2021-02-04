@@ -71,14 +71,14 @@ Di dalam Sofware Development ini terdapat orang orang yang membangun sistem ters
 	Model Pengembangan perangkat lunak ini merupakan metode yang sering digunakan oleh banyak perusahaan dan startup untuk mengembangkan perangakat lunak. Mengapa hal tersebut bisa terjadi? karena metode pengembangan perangkat lunak ini memiliki model scrum yang didalamnya terdapat sprint dimana setiap individu developer tidak memiliki ketergantungan dengan individu lainnya dalam mengembangkan perangkat lunak dengan artian lainnya yaitu tidak saling menunggu dalam mengembangkan part dari perangkat lunak. Projek manager akan melakukan evaluasi setiap minggunya atau 2 minggu sekali terhadap kinerja tim dalam mengembangkan perangkat lunak dimana hasil setiap minggunya tersebut juga akan dilaporkan atau dipresentasikan kepada client sehingga client juga merasa percaya dan merasa puas.
 	<br>
 	**Agile Software Development** merupakan metode pengembangan perangkat lunak yang flexible dengan adanya perubahan kebutuhan yang diinginkan oleh client dan pengembangan ini juga tergolong menjadi pengembangan perangkat lunak yang long software cycle. Selain flexible dalam pengembangan perangkat lunak metode pengembangan ini juga memiliki tujuan yaitu memiliki nilai jual yang tinggi terhadap sistem yang sedang dikembangkan, biaya pengendalian dalam pengembangan perangkat lunak, mengurangi resiko resiko yang akan terjadi kedepannya terhadap sistem yang sedang dikembangkan, menignkatkan kinerja tim developer dalam pengembangan perangkat lunak sesuai dengan tujuan pembuata/pengembangan sistem.<br>
-	**Jenis jenis Agile Software Development :**<br>
-	1.Extreme Programming (XP)<br>
-	2.Adaptive Software Development (ASD)<br>
-	3.Dynamic Systems Development Method<br>
-	4.Scrum Methodology<br>
-	5.Crystal<br>
-	6.Agile Modeling<br>
-	7.Rational Unified Process<br>
+		**Jenis jenis Agile Software Development :**<br>
+			1.Extreme Programming (XP)<br>
+			2.Adaptive Software Development (ASD)<br>
+			3.Dynamic Systems Development Method<br>
+			4.Scrum Methodology<br>
+			5.Crystal<br>
+			6.Agile Modeling<br>
+			7.Rational Unified Process<br>
 
 **Pada Tulisan kali ini saya akan membahas 2 Jenis Agile Software Development, yaitu Scrum dan Extreme Programming**<br>
 1.Scrum merupakan salah satu jenis Agile Sofware Development yang mengutamakan kolaborasi antar tim developer dalam mengembangkan perangkat lunak. Scrum juga merupakan pilhan model yang dapat mengatasi masalah masalah yang terjajdi pada developer sistem dikarenakan sistem yang dikembangkan terlalu kompleks dan selalu adanya perubahan yang dimanta oleh client di setiap saat. Oleh karena itu perlu adanya pola kerja yang efektif dan produktif dalam pengembangan perangkat lunak.<br>
