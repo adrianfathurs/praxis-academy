@@ -31,9 +31,16 @@ hidup pengembangan perangkat lunak, seperti waterfal methodology software develo
 
 Di dalam Sofware Development ini terdapat orang orang yang membangun sistem tersebut yang biasa disebut sebagai software developer. Software Developer secara umum dibagi menjadi beberapa bagian sesuai dengan kemampuan individu yang dimiliki. 
 ## Beberapa istilah bagi software developer secara umum sesuai dengan kemampuannya :
-	1. Project Manager meruapakan bagian dari tim yang memmiliki tugas untuk memanage suatu tim baik dari penjadwalan tugas untuks setiap indivu hingga perancangan sistem baik anggaran,tools dan metode pengembangan metode perangkat lunak yang digunakan sehingga sistem yang dibuat sesuai dengan apa yang diinginkan oleh client.
-	2. Backend Developer merupakan bagian dari tim yang memiliki tugas untuk membuat suatu fungsi fungsi logika berjalannya suatu sistem sehingga dapat berjalan sebagaimana mestinya dan tugas dari backend ini juga menyediakan API atau pun jembatan akses data yang nantinya diperlukan oleh Front End Developer.
-	3. Front End Developer merupakan bagian dari tim yang memiliki tugas untuk mendesain suatu sistem dari segi tampilan sehingga tampilan tersebut dapat terbilang nyaman digunakan oleh user dan responsive kebeberapa device yang digunakan oleh user. Front End Developer ini juga memiliki tugas untuk menampilkan data sesuai dengan apa yang dibutuhkan oleh client untuk ditampilkan kedalam sistem dengan pemanfaatan API yang telah dibuat oleh Backend Developer.
+	1. **Project Manager** meruapakan bagian dari tim yang memmiliki tugas untuk memanage suatu tim baik dari penjadwalan tugas untuks setiap individu
+	hingga perancangan sistem baik anggaran,tools dan metode pengembangan metode perangkat lunak yang digunakan sehingga sistem yang dibuat sesuai 
+	dengan apa yang diinginkan oleh client.
+	2. **Backend Developer** merupakan bagian dari tim yang memiliki tugas untuk membuat suatu fungsi fungsi logika berjalannya suatu sistem sehingga 
+	dapat berjalan sebagaimana mestinya dan tugas dari backend ini juga menyediakan API atau pun jembatan akses data yang nantinya diperlukan oleh 
+	Front End Developer.
+	3. **Front End Developer** merupakan bagian dari tim yang memiliki tugas untuk mendesain suatu sistem dari segi tampilan sehingga tampilan tersebut 
+	dapat terbilang nyaman digunakan oleh user dan responsive kebeberapa device yang digunakan oleh user. Front End Developer ini juga memiliki 
+	tugas untuk menampilkan data sesuai dengan apa yang dibutuhkan oleh client untuk ditampilkan kedalam sistem dengan pemanfaatan API yang telah
+	dibuat oleh Backend Developer.
 	
 ### tahapan pengembangan perangkat lunak:
 	* Menganalisis masalahnya
