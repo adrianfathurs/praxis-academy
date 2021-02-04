@@ -21,10 +21,17 @@
 ## Software Development
 **Software Development** merupakan proses memahami,menentukan,merancang,memprogram,mendokumentasikan,menguji dan memperbaiki bug yang terlibat dalam pembuatan dan pemeliharaan aplikasi, kerangka kerja,
 atau komponen perangkat. Orang yang berkecimpung didalam dunia Software development disebut software engineer. Perangkat Lunak dikembangkan untuk berbagai tujuan, tiga yang paling umum untuk memenuhi kebutuhan spesific client, untuk memenuhi kebutuhan yang dirasakan oleh pengguna potensial,
-atau untuk pribadi, semisal ilmuwan dapat membuat perangkat lunak untuk mengotomatiskan tugas biasa.**Pengembangan Perangkat Lunak Tertanam** yaitu penegembangan perangkat lunak tertanam, speperti yang
+atau untuk pribadi, semisal ilmuwan dapat membuat perangkat lunak untuk mengotomatiskan tugas biasa.**Pengembangan Perangkat Lunak Tertanam** yaitu penegembangan perangkat lunak tertanam, seperti yang
 digunakan untuk mengontrol produkk konsumen,memerlukan proses pengembangan untuk dintegrasikan dengan pengembangan produk fisik yang dikendalikan. Ada banyak pendekatan untuk MPPL yang dikenal sebagai siklus
 hidup pengembangan perangkat lunak, seperti waterfal methodology software development yang merupakan methodology tradisional dibanding dengan methodology pengembangan perangkat lunak lainnya.
 
+### Fungsi Pengembangan Perangkat Lunak atau Methodology Perangkat Lunak 
+	1. Membantu kemudahan tim developer untuk saling berkomunikasi dalam pengembangan sistem ataupun aplikasi
+	2. Membantu menjelaskan setiap peranan tim developer dalam mengembangkan aplikasi ataupun sistem sehingga kepercayaan dari client semakin bertambah
+Di dalam Sofware Development ini terdapat orang orang yang membangun sistem tersebut yang biasa disebut sebagai software developer. Software Developer secara umum dibagi menjadi beberapa bagian sesuai dengan kemampuan individu yang dimiliki. 
+	**Berikut ada beberapa istilah bagi software developer secara umum sesuai dengan kemampuannya :**
+	1. mfksdfs
+	
 ### tahapan pengembangan perangkat lunak:
 	
 	* Menganalisis masalahnya
@@ -34,15 +41,6 @@ hidup pengembangan perangkat lunak, seperti waterfal methodology software develo
 	* Implementasi perangkat lunak
 	* Menguji Perangkat Lunak
 	* Maintanance
-**Proses Pengembangan Perangkat Lunak atau Methodology Perangkat Lunak**
-<table>
-<thead>
-</thead>
-<tbody>
-<tr>
-<td><img src="https://steemitimages.com/300x300/https://i.imgur.com/xXwrksM.jpg" alt=""></td>
-<td><img src="https://steemitimages.com/200x200/https://i.imgur.com/xXwrksM.jpg" alt=""></td>
-<td><img src="https://steemitimages.com/100x100/https://i.imgur.com/xXwrksM.jpg" alt=""></td>
-</tr>
-</tbody>
-</table>
+	
+
+
