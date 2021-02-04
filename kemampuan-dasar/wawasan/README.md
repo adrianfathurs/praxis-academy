@@ -31,19 +31,32 @@ hidup pengembangan perangkat lunak, seperti waterfal methodology software develo
 
 Di dalam Sofware Development ini terdapat orang orang yang membangun sistem tersebut yang biasa disebut sebagai software developer. Software Developer secara umum dibagi menjadi beberapa bagian sesuai dengan kemampuan individu yang dimiliki. 
 ## Beberapa istilah bagi software developer secara umum sesuai dengan kemampuannya :
-	1. <bold>Project Manager</bold> meruapakan bagian dari tim yang memmiliki tugas untuk memanage suatu tim baik dari penjadwalan tugas untuks setiap individu
+	1. Project Manager meruapakan bagian dari tim yang memmiliki tugas untuk memanage suatu tim baik dari penjadwalan tugas untuks setiap individu
 	hingga perancangan sistem baik anggaran,tools dan metode pengembangan metode perangkat lunak yang digunakan sehingga sistem yang dibuat sesuai 
 	dengan apa yang diinginkan oleh client.
-	2. **Backend Developer** merupakan bagian dari tim yang memiliki tugas untuk membuat suatu fungsi fungsi logika berjalannya suatu sistem sehingga 
+	2. Backend Developer merupakan bagian dari tim yang memiliki tugas untuk membuat suatu fungsi fungsi logika berjalannya suatu sistem sehingga 
 	dapat berjalan sebagaimana mestinya dan tugas dari backend ini juga menyediakan API atau pun jembatan akses data yang nantinya diperlukan oleh 
 	Front End Developer.
-	3. **Front End Developer** merupakan bagian dari tim yang memiliki tugas untuk mendesain suatu sistem dari segi tampilan sehingga tampilan tersebut 
+	3. Front End Developer merupakan bagian dari tim yang memiliki tugas untuk mendesain suatu sistem dari segi tampilan sehingga tampilan tersebut 
 	dapat terbilang nyaman digunakan oleh user dan responsive kebeberapa device yang digunakan oleh user. Front End Developer ini juga memiliki 
 	tugas untuk menampilkan data sesuai dengan apa yang dibutuhkan oleh client untuk ditampilkan kedalam sistem dengan pemanfaatan API yang telah
 	dibuat oleh Backend Developer.
+	4. UI/UX merupakan bagian dari tim yan memiliki tugas untuk melakukan riset kebutuhan client yang nantinya di convert menjadi desai prototype yang 
+	berguna untuk menyamakan presepsi sitem kepada developer lainnya.
 	
-### tahapan pengembangan perangkat lunak:
-	* Menganalisis masalahnya
+### Tahapan pengembangan perangkat lunak:
+**Analisis Kebutuhan**
+	Tahap ini merupakan tahap dasar yang perlu difikirkan secara matang oleh Project manager. Didalam tahap ini membahas tentang rencana kebutuhan untuk sistem yang akan dibuat baik secara estimasi biaya yang dibuat, berapa lama sistem dibuat, beberapa orang yang harus berpartisipasi dalam pembangunan sistem tersebut, serta metodologi apa yang cocok dalam pembangunan sistem tersebut.	
+**Design**
+	Tahap ini merupakan tahap yang sering dillakukan olem tim UI/UX untuk medesain protoype sistem sesuai dengan hasil riset kebutuhan client dan nantinya prototype tersebut juga disampaikan ke tim developer lainnya
+**Implementasi**
+	Tahap ini merupakan tahap yang eksekusi bagi para backend developer dan front end developer untuk melakukan coding sesuai dengan prototype dan logic yang telah dikirim oleh tim UI/UX.
+**Testing**
+	Tahap ini merupakan tahap dimana sistem sudah dibuat dan siap untuk digunakan oleh client.
+**Maintanance**
+	Tahap ini merupakan tahap dimana adanya muncul bug didalam sistem disaat sistem digunakan atau tahap ini juga include apabila client membutuhkan fitur baru, memperpanjang hosting maupun domain.
+
+	
 	* Riset pasar
 	* Mengumpulkan persyaratan untuk perangkat lunak yang diusulkan
 	* Merancang rencana atau desain untuk perangkat lunak
