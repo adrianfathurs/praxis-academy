@@ -78,7 +78,7 @@ Di dalam Sofware Development ini terdapat orang orang yang membangun sistem ters
 	4. Scrum Methodology<br>
 	5. Crystal<br>
 	6. Agile Modeling<br>
-	7.Rational Unified Process<br>
+	7. Rational Unified Process<br>
 
 **Pada Tulisan kali ini saya akan membahas 2 Jenis Agile Software Development, yaitu Scrum dan Extreme Programming**
 
