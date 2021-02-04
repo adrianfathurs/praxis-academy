@@ -47,13 +47,13 @@ Di dalam Sofware Development ini terdapat orang orang yang membangun sistem ters
 ### Tahapan pengembangan perangkat lunak:
 1. **Analisis Kebutuhan** <br>
 	Tahap ini merupakan tahap dasar yang perlu difikirkan secara matang oleh Project manager. Didalam tahap ini membahas tentang rencana kebutuhan untuk sistem yang akan dibuat baik secara estimasi biaya yang dibuat, berapa lama sistem dibuat, beberapa orang yang harus berpartisipasi dalam pembangunan sistem tersebut, serta metodologi apa yang cocok dalam pembangunan sistem tersebut.	
-2. **Design**
+2. **Design** <br>
 	Tahap ini merupakan tahap yang sering dillakukan olem tim UI/UX untuk medesain protoype sistem sesuai dengan hasil riset kebutuhan client dan nantinya prototype tersebut juga disampaikan ke tim developer lainnya
-3. **Implementasi**
+3. **Implementasi** <br>
 	Tahap ini merupakan tahap yang eksekusi bagi para backend developer dan front end developer untuk melakukan coding sesuai dengan prototype dan logic yang telah dikirim oleh tim UI/UX.
-4. **Testing**
+4. **Testing** <br>
 	Tahap ini merupakan tahap dimana sistem sudah dibuat dan siap untuk digunakan oleh client.
-5. **Maintanance**
+5. **Maintanance** <br>
 	Tahap ini merupakan tahap dimana adanya muncul bug didalam sistem disaat sistem digunakan atau tahap ini juga include apabila client membutuhkan fitur baru, memperpanjang hosting maupun domain.
 
 	
