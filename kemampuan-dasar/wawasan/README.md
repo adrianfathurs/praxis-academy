@@ -35,3 +35,14 @@ hidup pengembangan perangkat lunak, seperti waterfal methodology software develo
 	* Menguji Perangkat Lunak
 	* Maintanance
 **Proses Pengembangan Perangkat Lunak atau Methodology Perangkat Lunak**
+<table>
+<thead>
+</thead>
+<tbody>
+<tr>
+<td><img src="https://steemitimages.com/300x300/https://i.imgur.com/xXwrksM.jpg" alt=""></td>
+<td><img src="https://steemitimages.com/200x200/https://i.imgur.com/xXwrksM.jpg" alt=""></td>
+<td><img src="https://steemitimages.com/100x100/https://i.imgur.com/xXwrksM.jpg" alt=""></td>
+</tr>
+</tbody>
+</table>
