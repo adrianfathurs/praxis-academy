@@ -1,7 +1,7 @@
 # Ruang Lingkup Pengembangan Software
 
 ## Teknologi Informasi
- ** Teknologi Informasi** merupakan suatu bidang minat yang berhubungan dengan komputer yang memiliki fungsi untuk menyimpan,mengambil,mengirimkan dan memanipulasi data atau informasi
+ **Teknologi Informasi** merupakan suatu bidang minat yang berhubungan dengan komputer yang memiliki fungsi untuk menyimpan,mengambil,mengirimkan dan memanipulasi data atau informasi
  Sebenarnya manusia itu telah menyimpan, mengambil,memanipulasi dan mengkomunikasikan informasi sejak bangsa Sumeria di Mesopotamia mengembankan tulisan sekitar 3000SM namun istilah dari 
  teknologi informasi sendiri baru muncul tahun 1958. [Prespektif Akademis](https://en.wikipedia.org/wiki/Information_technology) mendefinisikan TI sebagai program gelar sarjana yang mempersiapkan
  siswa untuk memenuhi kebutuhan teknologi komputer bisnis,pemerintahan,perawatan,kesehatan,sekolah,dan jenis organisasilainnya.
