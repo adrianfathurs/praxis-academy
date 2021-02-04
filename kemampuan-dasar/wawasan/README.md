@@ -30,7 +30,7 @@ hidup pengembangan perangkat lunak, seperti waterfal methodology software develo
 	2. Membantu menjelaskan setiap peranan tim developer dalam mengembangkan aplikasi ataupun sistem sehingga kepercayaan dari client semakin bertambah
 
 Di dalam Sofware Development ini terdapat orang orang yang membangun sistem tersebut yang biasa disebut sebagai software developer. Software Developer secara umum dibagi menjadi beberapa bagian sesuai dengan kemampuan individu yang dimiliki. 
-## Beberapa istilah bagi software developer secara umum sesuai dengan kemampuannya :
+### Beberapa istilah bagi software developer secara umum sesuai dengan kemampuannya :
 	1. Project Manager meruapakan bagian dari tim yang memmiliki tugas untuk memanage suatu tim baik dari penjadwalan tugas untuks setiap individu
 	hingga perancangan sistem baik anggaran,tools dan metode pengembangan metode perangkat lunak yang digunakan sehingga sistem yang dibuat sesuai 
 	dengan apa yang diinginkan oleh client.
@@ -45,24 +45,19 @@ Di dalam Sofware Development ini terdapat orang orang yang membangun sistem ters
 	berguna untuk menyamakan presepsi sitem kepada developer lainnya.
 	
 ### Tahapan pengembangan perangkat lunak:
-**Analisis Kebutuhan**
+1. **Analisis Kebutuhan**
 	Tahap ini merupakan tahap dasar yang perlu difikirkan secara matang oleh Project manager. Didalam tahap ini membahas tentang rencana kebutuhan untuk sistem yang akan dibuat baik secara estimasi biaya yang dibuat, berapa lama sistem dibuat, beberapa orang yang harus berpartisipasi dalam pembangunan sistem tersebut, serta metodologi apa yang cocok dalam pembangunan sistem tersebut.	
-**Design**
+2. **Design**
 	Tahap ini merupakan tahap yang sering dillakukan olem tim UI/UX untuk medesain protoype sistem sesuai dengan hasil riset kebutuhan client dan nantinya prototype tersebut juga disampaikan ke tim developer lainnya
-**Implementasi**
+3. **Implementasi**
 	Tahap ini merupakan tahap yang eksekusi bagi para backend developer dan front end developer untuk melakukan coding sesuai dengan prototype dan logic yang telah dikirim oleh tim UI/UX.
-**Testing**
+4. **Testing**
 	Tahap ini merupakan tahap dimana sistem sudah dibuat dan siap untuk digunakan oleh client.
-**Maintanance**
+5. **Maintanance**
 	Tahap ini merupakan tahap dimana adanya muncul bug didalam sistem disaat sistem digunakan atau tahap ini juga include apabila client membutuhkan fitur baru, memperpanjang hosting maupun domain.
 
 	
-	* Riset pasar
-	* Mengumpulkan persyaratan untuk perangkat lunak yang diusulkan
-	* Merancang rencana atau desain untuk perangkat lunak
-	* Implementasi perangkat lunak
-	* Menguji Perangkat Lunak
-	* Maintanance
+	
 	
 
 
