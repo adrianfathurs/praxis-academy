@@ -1,0 +1,5 @@
+1. Buat batch file(.bat)
+2. Untuk meng eksekusi file tersebut kamu bisa menggunakan cmd "windows power shell"
+3. Cara eksekusi apabila terdapat beda file maka tulis seperti ini sesuai letak file batch dimana anda simpan & "D:\KULIAH INFORMATIKA\bootcamp Praxis\My First Script.ps1
+4. Apabila kamu mendapati error tentang Policy, maka kamu ketik PS pada cmd Windows power Shell, kemudian tulis syntax ini di command line windows power shell PowerShell.exe -ExecutionPolicy Restricted
+
