@@ -1,6 +1,3 @@
-
-@echo OFF
-ECHO Ada File Java Pada Direktori 
-ECHO %PATH%
-
-pause
+IF [[*.java]] ; then
+	echo "Ada file Java pada Directory",SET mypath=%~dp0
+echo %mypath:~0,-1%
