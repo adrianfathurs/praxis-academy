@@ -38,10 +38,10 @@ myHeading.textContent='Hello World';
   }
   //---------------------------------------//
   if(numA<numB){
-    alert("numA < numB");
+   // alert("numA < numB");
   }
   else{
-    alert("numA > numB");
+    //alert("numA > numB");
   }
 
                                                                   /* Function */
@@ -61,12 +61,12 @@ function perkalian(a,b){
   //fungsi Kali
   function kali(){
     var dikali=8*7;
-    alert("Perkalian 8X7 :"+ dikali);
+   // alert("Perkalian 8X7 :"+ dikali);
   }
   //fungsi Tambah
   function tambah(){
     var ditambah=8+7;
-    alert("Perkalian 8+7 :"+ ditambah);
+   // alert("Perkalian 8+7 :"+ ditambah);
     
   }
 
