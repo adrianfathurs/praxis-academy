@@ -1,0 +1,6 @@
+Untuk Kasus kali ini User dapat menginput dan menampilkan secara langsung dan tergolong menjadi web SPA
+
+Bahasa Pemrograman :
+	- framework css : bootsraps
+	- HTML
+	- JS

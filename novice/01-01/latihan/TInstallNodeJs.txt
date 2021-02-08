@@ -1,0 +1,4 @@
+Tutorial Instalasi / Update
+1. Download source node.js di https://nodejs.org/en/
+2. Setelah itu tinggal  lakukan Instalasi
+3. Untuk pengecekan telah terinstall atau belum buka cmd lalu ketik node -v
