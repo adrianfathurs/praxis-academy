@@ -54,3 +54,6 @@ syntax lengkap set
     set.size – is the elements count.
 
 ******************
+
+3.Perbedaan antara Iterable dan array-like
+	Iterable merupakan objek yang diimplementasikan dengan symbol.iterator method, sedangkan Array-likes merupakan object yang memiliki index dan panjang.
