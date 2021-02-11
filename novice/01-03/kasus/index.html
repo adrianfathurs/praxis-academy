@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kasus Fortune Teller</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <center><bold><h1>Fortune Teller</h1></bold></center>
+        <hr>
+          <form onsubmit="return false">
+            <div class="mb-3">
+              <label for="namaPartner" class="form-label">Nama Partner</label>
+              <input type="text" class="form-control" id="namaPartner" >
+            </div>
+            <div class="mb-3">
+              <label for="sumOfChildren" class="form-label">Jumlah Anak</label>
+              <input type="number" class="form-control" id="sumOfChildren">
+            </div>
+            <div class="mb-3">
+              <label for="location" class="form-label">Location</label>
+              <input type="text" class="form-control" id="location">
+            </div>
+            <div class="mb-3">
+              <label for="location" class="form-label">Job Title</label>
+              <input type="text" class="form-control" id="jobTittle">
+            </div>
+            <button id="btnRamal" class="btn btn-success">Ramalkan</button>
+          </form>
+          <div class="card mt-4">
+            <div class="card-header">
+            <h2> Hasil Peramalan </h2>
+            </div>
+            <div class="card-body">
+              <div id="hasil">
+                
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="col">
+        <center><h1>The Puppy Age</h1></center>
+        <hr>
+        <form onsubmit="return false">
+          <div class="mb-3">
+            <label for="puppyAge" class="form-label">Puppy's Age </label>
+            <input type="number" class="form-control" id="puppyAge">
+          </div>
+          <button id="btnHitungUmur" class="btn btn-success">Hitung Umur</button>
+        </form>
+        <div class="card mt-2">
+          <h5 class="card-header">Hasil Hitung Puppy Age</h5>
+          <div class="card-body" id="box">
+            <p id="hitungUmur"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col">
+        <center><h1>The Life Supply Calculator</h1></center>
+        <hr>
+        <form onsubmit="return false">
+          <div class="mb-3">
+            <label for="age" class="form-label">Age</label>
+            <input type="number" class="form-control" id="age" >
+          </div>
+          <div class="mb-3">
+            <label for="numPer" class="form-label">Num Per day</label>
+            <input type="number" class="form-control" id="numPer">
+          </div>
+          <button type="submit" id="btnSupply" class="btn btn-success">Submit</button>
+        </form>
+        <div>
+          <p id="tampilNum"></p>
+        </div>
+      </div>
+      <div class="col">
+
+      </div>
+    </div>
+  </div>
+</body>
+<script src="scripts/fortuneTeller.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latihan Callback</title>
+</head>
+<body>
+  <script>
+      let People=function(person,age){
+          this.person=person;
+          this.age=age;
+          this.info=function(){
+            document.write(this);
+            setTimeout(() => {
+                document.write(this.person+" is "+this.age+" Years Old");
+            }, 30000);
+          };
+      console.log(this.person);
+        }
+      let person1= new People("jhon",3);
+      person1.info();
+
+  </script>
+</body>
+</html>
