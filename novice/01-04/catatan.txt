@@ -1,0 +1,56 @@
+1. Apasih yang dimaksut dengan Map didalam Javascript?
+ Map adalah seperti object biasa, dimana untuk key nya itu dapat dimodifikasi sesua inputannya.
+ cara pemakaiannya cukup mudah :
+	1. Deklarasikan atau inisialisasi menggunakan fungsi map:
+		let map= new Map();
+	2. Untuk menambah isi dari object map tersebut kita dapat menggunakan syntax dibawah ini:
+		map.set(1,"Tono");
+		map.set("2","Toni");
+	3. Untuk menampilkan value tertentu dari object map tersebut kita cukup memamnggil indexnya saja,seperti syntax
+		map.get(1);//"Tono"
+		map.get("2");//"Tini"
+	4. Untuk mengetahui jumlah isi dari object map tersebut kita dapat menggunakan syntax:
+		map.size();//2
+ Peraturan yang ada dimap yaitu urutan dari isi object map tersebut sesuai dengan urutan melakukan entry, Tipe data tidak diubah, sehingga key berupa string "1" dan key integer 1 tetap ada keduannya tanpa prasing type data indexnya
+
+ cara menggunakan iterasi pada object map ini, seperti berikut :
+	1. map.keys() untuk iterasi key, untuk syntax nya seperti berikut 
+		for(let k of map.keys()){
+			console.log(k)
+		}
+	2. map.values() untuk iterasi value, untuk syntaxnya seperti berikut
+		for(let k of map.values()){
+			console.log(k)
+		}
+	3. map.entries() untuk iterasi berupa index dan value nya, syntax nya seperti berikut
+		for(let entry of map ()){
+			console.log(entry)
+		}
+-----------------
+syntax lengkap map
+-----------------
+
+    new Map([iterable]) – creates the map, with optional iterable (e.g. array) of [key,value] pairs for initialization.
+    map.set(key, value) – stores the value by the key, returns the map itself.
+    map.get(key) – returns the value by the key, undefined if key doesn’t exist in map.
+    map.has(key) – returns true if the key exists, false otherwise.
+    map.delete(key) – removes the value by the key, returns true if key existed at the moment of the call, otherwise false.
+    map.clear() – removes everything from the map.
+    map.size – returns the current element count.
+
+******************
+
+2. Apasih yang dimaksut dengan set didalam javascript?
+	set itu mirip mirp dengan array hanya saja yang membedakan adalah untuk element didalamnya tidak dapat berbeda/uniqe value. set ini juga hanya bisa dipanngil menggunakan iterasi.
+------------------
+syntax lengkap set
+------------------
+
+    new Set([iterable]) – creates the set, with optional iterable (e.g. array) of values for initialization.
+    set.add(value) – adds a value (does nothing if value exists), returns the set itself.
+    set.delete(value) – removes the value, returns true if value existed at the moment of the call, otherwise false.
+    set.has(value) – returns true if the value exists in the set, otherwise false.
+    set.clear() – removes everything from the set.
+    set.size – is the elements count.
+
+******************
