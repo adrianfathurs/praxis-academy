@@ -1,0 +1,12 @@
+fungsi dari .gitignore yaitu agar file besar tidak ikut ke push ke repo github
+sedangkan untuk otomasi penginstalan saat project besar dari package package yang digunakan dalam project perlu membuat package.json
+ /////
+ carannya
+ ///////
+  npm init 
+ ----------------------------------------------------------------------------------
+
+  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ dan apabila ingin mengambil suatu project di repo orang berarti anda harus clone dulu truss masuk ke cmdnya lalu ketik npm install
+ sehingga npm dari repo yang dituliskan di project tersebut datpat terisntall secara otomatis didalam file local anda
+ /////////////////////////////////////////////////////////////////////////////////////////////////////

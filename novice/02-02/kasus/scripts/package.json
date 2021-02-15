@@ -1,0 +1,17 @@
+{
+  "name": "latihan1",
+  "version": "1.0.0",
+  "description": "\"Belajar Membuat Functional Programming\"",
+  "main": "ramda.js",
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "ramda": "^0.27.1",
+    "underscore": "^1.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "adrianfathurs",
+  "license": "ISC"
+}
