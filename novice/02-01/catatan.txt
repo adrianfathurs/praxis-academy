@@ -1,0 +1,21 @@
+Pemrograman Beriorientasi Objek merupakan suatu atruan pemrogramn berdasarkan konsep objek. Didalam objek objek tersebut terdapat data, variable sert method yang digunakan dalam class tersebut. Berikut ini bentuk dari syntax OOP
+
+class Binatang{
+	
+	function constructor(nama,makanan){ //fungsi yang pertama dieksekusi
+		this.nama=nama; // yang dimaksut dengan Variable
+		this.makanan=makanan;
+	}
+	
+	walk(){
+	return `${this.nama} berjalan dengan santai`; 
+	}
+	
+}
+
+let binatang=new Binatang("toni","Sayuran");
+binatang.walk // akan tampil toni berjalan dengan santai;
+
+Didalam Pemrograman Berorientasi objek,terdapat beberapa konsep dasar yaitu:
+1. Kelas, kelas merupakan cetak biru dari suatu objek nyata yang didalamnya terdapat sifat dan tingkah laku dari suatu objek dan biasanyan digambarkan kedalam fungsi/method dalam suatu class
+2. Enkapsulation akan memastikan pengguna agar tidak dapat mengganti keadaan dalam dari sebuah objek  dengan cara tidak layak hanya method/fungsi didalamnya yang diberi akses keaddannya
