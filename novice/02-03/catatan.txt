@@ -1,0 +1,17 @@
+================================
+         Callback 
+================================
+Callback bisa dikatakan sebagai High Order Function, bisa dikatakan seperti itu karena fungsi callback dapat mengandung paramater dari fungsi lain. fungsicallback ini sangat berfungsi jika kita melakukan suatu perkerjaan atau aktivitas yang banyak dalam satu waktu dan nilai retun fungsi satu berpengaruh kepada fungsi selanjutnya.
+
+Callback juga bisa dikatakan sebagai model asynchronus programming.Callback ini bisa berupa return nilai ataupun pelemparan suatu value dari variabel
+
+
+================================
+	Promise
+================================
+Promise bisa dikatakan merupakan cara yang bisa mengatasi apabila developer kesulitan menggunakan fungsi callback, untuk menggunakan promise ini perlu instalasi npm install util-promisify, npm install promise
+
+================================
+	Asynchronous Async
+================================
+Async bisa dikatakan adopsi dari fungsi promise, hanya saja yang membedakan yaitu menggunakan try catch dalam funsi async nya. Perlu adanya deklarasi fungsi utama terlebih dahulu sebelum melakukan pemanggilan promisify fungsi. Perlu juga instalasi npm install util-promisify,npm install promise
