@@ -1,0 +1,57 @@
+Bugs adalah suatu yang muncul entah berupa pesan dari sistem kita berupa error ataupun sistem yang tidak berjalan seperti apa yang diinginkan oleh user maupun developer. Bugs ini merupakan suatu tantangan kedua bagi programmer sistem dan harus di tangani setelah tantangan kedua yaitu membuat flow/logic yang dituangkan ke dalam bahasa pemrograman. Untuk menangani bugs maupun error perlu adanya error handling, sehingga bugs memiliki pesan yang mudah dibaca dan programmer mengetahui dimana syntax maupun code yang mengalami bugs yang mempengaruhi jalannya sistem.
+
+===============================================
+		Error Handling
+===============================================
+
+Kategori Error dibagi menjadi 2 : 
+1. Actual Problem
+2. Programmer Mistake
+
+
+Actual Problem merupakan kesalahan yang terjadi disaat program sudah berjalan dan error dikarenakan inputan user,sedangkan untuk programmer misatake yaitu error yang muncul dikarenakan adanya kesalahan programmer dalam menuliskan syntax pada baris codenya
+
+Macam Macam error:
+1.syntax error
+	Syntax error merupakan error yang sering terjadi bagi developer atau programmer disaat mengembangkan suatu sistem. Error ini muncul dikarenakan kelalain programmer dalam menuliskan syantax codenya.
+2.Runtime Error
+	Runtime error merupakan error yang terjadi karena semisal programmer membuat fungsi, tetapi fungsi itu belum dipanggil, sehingga akan mengakibatkan munculnya pesan runtime error.
+3.Logical Error
+	Logical error merupakan error yang disebabkan karena kurang runtutnya pengendalian terhadap kemungkinan error yang terjadi. Logical error ini merupakan error murni yang disebabkan oleh programmer dalam menuliskan flow programmnya ke dalam syntax codennya.	
+
+Cara Penanganan Error :
+1. Salah satu cara untuk menangani error yaitu dengan menggunakan try catch finally, cara ini bisa dibilang cara yang benefit sekali untuk penerappannya. Semisal teradapat kasus yaitu besok anda memiliki janjian makan dengan teman teman anda dan kemungkinan untuk hari esok tidak akan ada halangan hujan. Apabila ada halangan hujan pun anda tetap bertemu dengan teman teman tetapi kegiatannya diganti dengan mabar oonline. walaupun hujan atau tidak anda tetap bertemu dengan teman anda. Untuk Visualisasi syntax try catch nya seperti berikut :
+try{
+	Anda memiliki janjian makan dengan teman anda,
+	
+	jika hujan maka throw "Mabar Online",kalau tidak hujan tetep acara makan
+}
+catch(e){
+	e; // Mabar Online
+}
+finally{
+	Walaupun hujan Atau tidak Anda tetep bisa bertemu dengan teman anda.
+}
+2. cara kedua juga bisa menggunakan fungsi oneError, merupakan suatu pengendalian error yang lebih simple daripada try catch tapi untuk penangannanya masih bagus menggunakan trycatch sih. fungsi one error ini bisa diaplikasikan seperti berikut:
+=>>>>>>> window.onerror = function(){
+			alert("An Error Occured")
+		}
+=>>>>>>> <img src="coolPhoto.jpg" onerror="alert('An Error occured loading your page')"
+
+=============================================================
+		Strict Mode
+=============================================================
+	Strict mode merupakan fitur dari java script dimana akan memunculkan pesan error apabila adanya kesalahan penulisan syntax yang ditulis oleh proggrammer. Strict mode ini sangat berguna pula untuk programmer dalam pengembangan sistem besar, apalagi sistem tersebut dibangun oleh beberapa programmer lainnya penggunaan syntax "use strict" ini dapat menjadi paradgima dalam penulisan code, sehingga code yang ditulis dapat clean, dimengerti oleh sama sama pengembang sistem serta sesuai dengan aturan yang ada pada Java Scripts. Semisal Pengaplikasian nya yaitu :
+ Syntax salah:
+	"use strict";
+	for(counter=10;counter<10;counter++){
+		console.log("Hello")
+	}
+	//Maka terminal akan mengeluarkan pesan error yaitu counter is not defined;
+ Syntax Benar:
+	"use strict";
+	for(let counter=10;counter<10;counter++){
+		console.log("hello");
+	}
+	//maka di terminal akan mengeluarkan hasil hello,hello,hello,hello,hello,hello,hello,hello,hello,hello
+Setidaknya jika anda programmer javascript perlu memperhatikan cara penulisan syntax, sehingga syntax code yang anda buat itu clean,rapi serta sesuai dengan pradigma dari bahasa pemrograman javascript sendiri.
