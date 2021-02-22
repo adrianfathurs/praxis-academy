@@ -1,0 +1,14 @@
+Instalasi framework Vue Js (Vue CLI)
+
+Apasih Vue js itu? 
+ Oiya bagi sobat programmer, apalagi orang front End Develpor pasti sangat familiar dengan kata Vue Js. Yak, Vue js merupakan salah satu framework javascript yang mudah untk dipelajari bagi pemula front End Development dan membantu front End developer untuk membangun tampilan web secara interktif dan lebih responsive. Komunitasnya pun terbilang besar di Indonesia.
+
+=>Langkah Langkah yang diperlukan untuk menggunakan/instalasi framework Vue Js(Vue CLI) :
+1. Install vue terlebih dahulu di cmd kalian, syntax 'npm install -g @vue/cli', instalasi ini dilakukan satu kali dan bersifat global.
+2. Setelah itu, kalian bisa cek apakah vue yang kalian install sudah terpasang belum dilaptop kalian, syntax 'vue --version' kalo semisal muncul versi vue di cmd kalian berarti vue udah terpasang.
+3. Selanjutnya, kalo semisal kalian pengen create project pake vue, bisa tulis syntax ini 'vue create nama-project' sebelum kalian eksekusi syntax tersebut kalian harus arahkan di folder mana kalian mau create project pake vue.
+4. nah, setelah diatas dilakukan, pasti muncul muncul pertanyaan seputar project yang ingin kalian buat di cmd kalian. 
+	->pilih Manually Select Feature
+	->trus pilih feature project kalian, biasanya sih untuk default nya pakai babel sama linter.
+5. Nah setelah file ataupun folder kalian udah jadi, cara ngerun folder vue nya biar menunjukan kalo vue success dengan cara tulis syntax di cmd 'npm run serve'. Apabila muncul link:http://localhost:8081/ maka anda berhasil untuk membuat project menggunakan vue js. Dan selebihnya kalian bisa mengulik dan membangun website menggunakan vue js ini.
+ 
