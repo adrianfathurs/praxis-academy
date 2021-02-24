@@ -1,0 +1,24 @@
+
+
+Apasih Bedanya Component Parent dan Component Child?
+	Component Parent biasannya mengimport component lain, untuk Syntax didalam framework vue yaitu import "NamaDeklarasi" from './component/child.vue'. Component Parent ini tidak hanya dapat mengimport hanya satu component child saja melainkan bisa banyak mengimport banyak component child.
+	Component Child biasanya komponent yang dimport dan dibutuhkan oleh component parent.
+
+Istilah Props
+	Props dalam vue js fungsinya untuk mengambil data yang ada didalam component parent yang nantinya dapat ditampilkan di komponent child nya. Props ini memiliki aturan bahwa komponent yang dapat melemparkan data hanya dari komponent parentnnya saja ke component child dan tidak berlaku sebaliknya.
+
+Istilah Emit
+	Emit dalam vue js fungsinnya untuk mengirimkan data dari childe ke parents, hal ini berkebalikan dengan props.
+==========================================================================================================================lLifeCycle Vue Js
+	LifeCycle merupaka bagian penting dari vue yang memliki fungsi untuk menentukan step/urutan kode apa yang akan dijalankan.Life Cycle Vue dibagi enjadi 4 tipe yaitu creation, mounted,update, deletion
+	Creation merupakan tipe dari lifecycle vue yang memiliki fungsi yang mengandung syntax yang dijalankan sebelum dan sesudah komponent mengupdate DOM.Creation dibagi menjadi 2 tipe yaitu beforeCreate dan created.
+	>beforeCreated yaitu akan mengeksekusi syntax javascript sebelum semua komponen,event,dan data belum terinisiasi,Hal ini seperti anda meletakan syntax javascript pada head tag html.
+	>created yaitu tempat dimana data dan event telah selesai dieksekusi dengan kondisi template yang belum dirender.Created ini biasanya digunakan untuk pemanggilan api dan di disimpan pada sebuah state.
+	Mounting merupakan tipe dari lifecycle vue yang memiliki fungsi untuk memanipulasi sebuah dom persis sebelum dan sesudah template dirender. Dan jangan pernah menload data / mengambil data didalam fungsi ini.Ada 2 tipe lifestyle pada mounting yaitu beforeMount dan Mounted.
+	>beforeMounted merupakan tipe lifecycle vue dimana dijalankan sebelum template dirender tetapi setelah template di compile, serta tujuannya agar dapat mengakses DOM,
+	>Mounted merupakan tipe lifecycle vue dimana dijalankan setelah template selesai dirender, sehingga anda dapat mengakses seluruh komponent,template,data,even,dan object global vue yang lain, pada fungsi mounted ini layaknya kita menulis syntax didalam body html.
+	Updating merupakan tipe lifecycle vue js dimana digunakan disaat adanya manipulasi data dan property baik menggunakan computed, watchers, re
+	>BeforeUpdate merupakan tipe lifecycle dari vue js dimana dijalankan setelah data dalam component diubah tetapi sebelum template dirender ulang DOM.
+	>
+
+	
