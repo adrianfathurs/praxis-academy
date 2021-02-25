@@ -1,0 +1,52 @@
+========================================
+	Library VUEX Pada Vue Js
+========================================
+
+Pada library Vuex ini apabila anda menginstal dari vue cli dan menambahkan fitur vuex maka pada folder projek anda akan mendapatkan folder store yang didalamnya terdapat beberapa element yaitu state,mutation,actions,getters. Sebenarnya masih banyak lagi element element lainnya yang ada
+	Pada object state berisi deklarasi variable variable yang ingin kita pakai dan nantinya state tersebut dapat diakses di berbagai komponen. Cara mengakses pada script component lain dengan cara 
+	=>>this.$store.state.namaObject.elementObject
+	pada object getters merupakan kumpulan banyak fungsi yang berisi pemanggilan state yang ada didalam file index.js sehingga nantinya dapat diakses ke oleh semua komponent. cara pengaksesan nya di komponent lain dengan cara
+	=>>this.$store.getters.namaFungsi
+	pada object mutations yaitu object yang digunakan untuk mengubah nilai state yang ada didalam store dari data ataupun inputan dari komponent lainnya.
+	syntax yang ada pada store/index.js
+	=>>
+	state:{
+		user:{
+			username:"Adrian Fathur S",
+		}
+	},
+	,mutations:{
+		changedName(state,payload){	
+			state.user.username=payload
+		}
+	},
+	=>>syntax yang ada didalam komponen
+	<template>
+		<div>
+		<input type="text" v-model="usernameBaru">
+		<button type="button" @click="changeName">Aksi</button>
+		<label>{{hero.username}}</label>
+		
+
+		</div>
+	</template>	
+	import {mapState,mapMutations} from 'vuex'
+	export default{
+		data:()=>{
+			usernameBaru:"",
+		},
+		methods:{
+			...mapMutations({
+			changeName:"changedName",
+			}),
+		},
+		computed:{
+			...mapState({
+			hero:(state)=>state.user
+			}),
+		},
+		
+	}
+	pad object action dia merupakan object dari vuex yang dapat menjalankan beberapa fungsi mutasi dalam satu action, sehingga bisa dikatakan bahwa satu tombol bisa digunakan untuk menngubah beberapa data didalam suatu komponen
+
+	
