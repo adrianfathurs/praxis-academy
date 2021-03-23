@@ -23,19 +23,19 @@ export default ({
     },
     async addData(context, payload, ) {
       await toDoListService.addedData(payload);
-      context.dispatch('getAllData');
+      await context.dispatch('getAllData');
 
     },
     async deletedData(context, payload) {
       await toDoListService.hapusData(payload);
       console.log("oyy");
-      context.dispatch('getAllData');
+      await context.dispatch('getAllData');
 
     },
     async updatedData(context, payload) {
 
       await toDoListService.updateData(payload);
-      context.dispatch('getAllData');
+      await context.dispatch('getAllData');
     }
 
   },

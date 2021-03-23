@@ -232,9 +232,12 @@ export default {
       this.deletedItems = item.id;
     },
 
-    deleteItemConfirm() {
+    async deleteItemConfirm() {
       var id = this.deletedItems;
-      this.$store.dispatch("toDoList/deletedData", id);
+      await this.$store.dispatch("toDoList/deletedData", id);
+
+      console.log(this.AllData);
+
       this.closeDelete();
     },
 
@@ -259,20 +262,21 @@ export default {
         this.getAllData();
       });
     },
-    btnUpdate(itemId, itemName, itemAlamat, itemUmur) {
+    async btnUpdate(itemId, itemName, itemAlamat, itemUmur) {
       var dataUpdate = {
         name: itemName,
         alamat: itemAlamat,
         umur: itemUmur,
       };
       var idDataUpdate = itemId;
-      this.$store.dispatch("toDoList/updatedData", {
+      await this.$store.dispatch("toDoList/updatedData", {
         id: idDataUpdate,
         data: dataUpdate,
       });
+
       this.closeUpdate();
     },
-    save(name, alamat, umur) {
+    async save(name, alamat, umur) {
       var data;
 
       data = {
@@ -282,7 +286,7 @@ export default {
       };
       console.log("false");
       console.log(data);
-      this.$store.dispatch("toDoList/addData", data);
+      await this.$store.dispatch("toDoList/addData", data);
 
       this.close();
     },

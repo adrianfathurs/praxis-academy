@@ -28,8 +28,8 @@
         target="_blank"
         text
       >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
+        <span class="mr-2">Privy ID</span>
+        <a href="https://privy.id/"><v-icon>mdi-open-in-new</v-icon></a>
       </v-btn>
     </v-app-bar>
 
