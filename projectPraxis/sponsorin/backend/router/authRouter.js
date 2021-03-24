@@ -5,6 +5,7 @@ const {
   loginValidationRules,
   validate,
 } = require("../middleware/validator");
+const roleController = require("../controllers/roleController");
 
 const r = Router();
 
@@ -16,4 +17,7 @@ r.post(
 );
 
 r.post("/login", loginValidationRules(), validate, authController.verifyLogIn);
+r.post("/setrole", roleController.editRole);
+r.post("/setdesc", roleController.editDeskripi);
+
 module.exports = r;

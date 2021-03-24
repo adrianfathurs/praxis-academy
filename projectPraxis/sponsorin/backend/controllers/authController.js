@@ -45,7 +45,7 @@ const verifyLogIn = async (req, res) => {
         email: email,
       },
     });
-
+    console.log(user);
     if (!user) {
       return res.status(400).json({ success: false, msg: "User not found" });
     }
