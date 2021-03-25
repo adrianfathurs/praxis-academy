@@ -1,10 +1,10 @@
 <template>
-<v-app id="app">
-  <Navbar />
-  <router-link />
-  <router-view />
-  
-  <Footer />
+  <v-app id="app">
+    <Navbar />
+    <router-link />
+    <router-view />
+
+    <Footer />
   </v-app>
 </template>
 
@@ -17,8 +17,13 @@ export default {
     //
   }),
   components: {
-    Navbar,Footer,
+    Navbar,
+    Footer,
   },
 };
 </script>
 <style>
+#app {
+  background-color: #fafafa;
+}
+</style>

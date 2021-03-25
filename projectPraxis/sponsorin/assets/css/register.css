@@ -1,0 +1,21 @@
+
+.padding-container{
+  padding: 50px 50px;
+}
+.padding-container2{
+  padding: 50px 100px;
+}
+@media(max-width:540px){
+  .padding-container{
+  padding: 25px 25px;
+}
+.padding-container2{
+  padding: 25px 50px;
+}
+}
+.margin-top-container{
+  margin-top: 20px;
+}
+.cls{
+  clear: both;
+}

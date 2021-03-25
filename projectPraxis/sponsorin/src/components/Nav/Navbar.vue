@@ -6,6 +6,7 @@
         ><span class="font-roboto font-3 underline text-white">In</span>
       </p>
     </div>
+
     <v-container color="orange darken-1" fluid>
       <v-toolbar color="orange darken-1" flat>
         <div class="navbar-items-phone ">
@@ -17,13 +18,20 @@
         </div>
 
         <v-spacer></v-spacer>
+
         <div class="navbar-items-phone pt-1">
           <v-row>
             <v-col>
-              <v-btn class="" color="white" text>
+              <v-btn class="" to="/" color="white" text>
                 Home
               </v-btn>
             </v-col>
+            <v-col>
+              <v-btn class="" to="/event" color="white" text>
+                Event
+              </v-btn>
+            </v-col>
+
             <v-col>
               <v-btn class="" color="white" text>
                 About
@@ -31,7 +39,7 @@
             </v-col>
 
             <v-col>
-              <v-menu offset-y text>
+              <v-menu open-on-hover bottom offset-y text>
                 <template v-slot:activator="{ on, attrs }">
                   <v-btn color="white" text v-bind="attrs" v-on="on">
                     Kategori
@@ -40,6 +48,7 @@
                     >
                   </v-btn>
                 </template>
+
                 <v-list>
                   <v-list-item v-for="(item, index) in items" :key="index">
                     <v-list-item-title>{{ item.title }}</v-list-item-title>
@@ -49,8 +58,8 @@
               </v-menu>
             </v-col>
             <v-col>
-              <v-btn class="pb-3" to="/login" icon>
-                <v-icon class="mr-2" color="teal darken-3"
+              <v-btn to="/register" color="orange darken-1" text>
+                <v-icon class="pb-2 mr-2" color="teal darken-3"
                   >fas fa-sign-in-alt</v-icon
                 >
               </v-btn>
@@ -59,6 +68,10 @@
         </div>
       </v-toolbar>
     </v-container>
+
+    <div class="navbar-items-navigation">
+      <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
+    </div>
     <v-navigation-drawer v-model="drawer" absolute temporary right app>
       <v-list nav dense>
         <v-list-item-group
@@ -103,9 +116,6 @@
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>
-    <div class="navbar-items-navigation">
-      <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
-    </div>
   </v-app-bar>
 </template>
 <script>
@@ -155,6 +165,12 @@ export default {
     visibility: hidden;
   }
 }
+@media (max-width: 450px) {
+  .v-toolbar__content {
+    width: 60%;
+  }
+}
+
 @media (min-width: 750px) {
   .navbar-items-navigation {
     visibility: hidden;
@@ -162,5 +178,8 @@ export default {
 }
 .float-right {
   float: "right";
+}
+.pointer {
+  cursor: pointer;
 }
 </style>
