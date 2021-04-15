@@ -7,7 +7,7 @@ const authRouter = require("./router/auth");
 const userRouter = require("./router/user");
 const eventRouter = require("./router/event");
 
->>>>>>> f566a3f3f39d54897a76c4d35f80dc7b2e786ae4
+
 const app = Express();
 app.use(cors());
 app.use(Express.json());
