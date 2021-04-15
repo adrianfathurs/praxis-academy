@@ -102,7 +102,13 @@ export default {
       cardNumber: [1, 2, 3, 4, 5, 6],
       items: ["Foo", "Bar", "Fizz", "Buzz"],
       value: ["foo", "bar", "fizz", "buzz"],
+      dialog: false,
     };
+  },
+  mounted() {
+    if (localStorage.getItem("access_token") != null) {
+      this.dialog = true;
+    }
   },
 };
 </script>

@@ -57,7 +57,7 @@
                   :rules="numberRule"
                   required
                 ></v-text-field>
-                <v-select :items="items" label="Role"></v-select>
+                <!-- <v-select :items="items" label="Role"></v-select> -->
               </v-form>
               <v-btn
                 :disabled="!valid"
@@ -86,17 +86,22 @@
         </v-container>
       </v-card>
     </v-container>
+    <div v-if="dialog">
+      <Role />
+    </div>
   </v-content>
 </template>
 <script>
-require("../../../assets/css/register.css");
+import Role from "@/components/modals/Role";
+import { mapGetters } from "vuex";
+import "../../../assets/css/register.css";
 export default {
   data: () => ({
     valid: true,
     name: "",
     nameRules: [
       (v) => !!v || "Name is required",
-      (v) => (v && v.length <= 10) || "Name must be less than 10 characters",
+      (v) => (v && v.length >= 10) || "Name must be less than 10 characters",
     ],
     email: "",
     emailRules: [
@@ -115,6 +120,7 @@ export default {
     show2: true,
     show3: false,
     show4: false,
+    dialog: false,
     password: "password",
     rulesPass: {
       required: (value) => !!value || "Required.",
@@ -122,14 +128,39 @@ export default {
       emailMatch: () => `The email and password you entered don't match`,
     },
   }),
-
+  components: {
+    Role,
+  },
+  computed: {
+    ...mapGetters({
+      access_token: "AuthStore/getAccessToken",
+    }),
+  },
   methods: {
-    validate() {
-      this.$refs.form.validate();
+    async validate() {
+      if (this.$refs.form.validate()) {
+        var data = {
+          nama: this.name,
+          email: this.email,
+          noTelpon: this.noTelepon,
+          password: this.password,
+        };
+        await this.$store.dispatch("AuthStore/registerAct", data);
+        localStorage.setItem("access_token", this.access_token);
+        if (
+          localStorage.getItem("access_token") != null &&
+          this.access_token != null
+        ) {
+          this.dialog = true;
+        }
+      }
     },
     reset() {
       this.$refs.form.reset();
     },
+  },
+  mounted() {
+    this.dialog = false;
   },
 };
 </script>

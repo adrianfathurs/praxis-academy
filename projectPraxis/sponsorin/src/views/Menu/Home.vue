@@ -20,7 +20,9 @@
             <div class="display-1">
               <div class="text-center">
                 <h1 class="mb-4 font-akaya">Hello!! Sponsor'ers</h1>
-                <v-btn class="mt-2 mb-2" color="teal darken-4">Join Us</v-btn>
+                <v-btn to="/register" class="mt-2 mb-2" color="teal darken-4"
+                  >Join Us</v-btn
+                >
                 <h3>Connect Your Event Organizer to Get SponsorShip !</h3>
               </div>
             </div>
@@ -96,7 +98,7 @@
         <v-row>
           <v-col v-for="(item, index) in cardNumber" :key="index">
             <div>
-              <v-card :loading="loading" class="mx-auto my-6" max-width="374">
+              <v-card  class="mx-auto my-6" max-width="374">
                 <template slot="progress">
                   <v-progress-linear
                     color="deep-purple"

@@ -99,7 +99,13 @@ export default {
 
   methods: {
     validate() {
-      this.$refs.form.validate();
+      if (this.$refs.form.validate()) {
+        var data = {
+          email: this.email,
+          password: this.password,
+        };
+        this.$store.dispatch("AuthStore/loginAct", data);
+      }
     },
     reset() {
       this.$refs.form.reset();

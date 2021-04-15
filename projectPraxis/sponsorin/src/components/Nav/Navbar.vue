@@ -33,7 +33,7 @@
             </v-col>
 
             <v-col>
-              <v-btn class="" color="white" text>
+              <v-btn class="" to="/coba" color="white" text>
                 About
               </v-btn>
             </v-col>
@@ -58,11 +58,34 @@
               </v-menu>
             </v-col>
             <v-col>
-              <v-btn to="/register" color="orange darken-1" text>
-                <v-icon class="pb-2 mr-2" color="teal darken-3"
-                  >fas fa-sign-in-alt</v-icon
-                >
-              </v-btn>
+              <div v-if="access_token">
+                <v-menu open-on-hover bottom offset-y text>
+                  <template v-slot:activator="{ on, attrs }">
+                    <v-btn color="white" text v-bind="attrs" v-on="on">
+                      <v-icon class="pb-2 mr-2" color="teal darken-3"
+                        >fas fa-users</v-icon
+                      >
+                      <span class="ml-2">
+                        <v-icon> fas fa-caret-down</v-icon>
+                      </span>
+                    </v-btn>
+                  </template>
+
+                  <v-list>
+                    <v-list-item v-for="(item, index) in auth" :key="index">
+                      <v-list-item-title>{{ item.title }}</v-list-item-title>
+                      <v-divider></v-divider>
+                    </v-list-item>
+                  </v-list>
+                </v-menu>
+              </div>
+              <div v-else>
+                <v-btn to="/register" color="orange darken-1" text>
+                  <v-icon class="pb-2 mr-2" color="teal darken-3"
+                    >fas fa-sign-in-alt</v-icon
+                  >
+                </v-btn>
+              </div>
             </v-col>
           </v-row>
         </div>
@@ -99,12 +122,8 @@
               <v-list-item-title>Kategori</v-list-item-title>
             </template>
 
-            <v-list-item v-for="item in items" :key="item" link>
+            <v-list-item v-for="(item, index) in items" :key="index" link>
               <v-list-item-title v-text="item.title"></v-list-item-title>
-
-              <v-list-item-icon>
-                <v-icon v-text="icon"></v-icon>
-              </v-list-item-icon>
             </v-list-item>
           </v-list-group>
           <v-list-item>
@@ -119,6 +138,7 @@
   </v-app-bar>
 </template>
 <script>
+import { mapGetters } from "vuex";
 export default {
   name: "Navbar",
   data: () => ({
@@ -131,11 +151,25 @@ export default {
       { title: "Charity" },
       { title: "Donor Darah" },
     ],
+    auth: [{ title: "Nama" }, { title: "Setting" }, { title: "Logout" }],
     admins: [
       ["Management", "mdi-account-multiple-outline"],
       ["Settings", "mdi-cog-outline"],
     ],
+    icon: false,
   }),
+  computed: {
+    ...mapGetters({
+      access_token: "AuthStore/getAccessToken",
+    }),
+  },
+  mounted() {
+    if (localStorage.getItem("access_token") != null) {
+      this.icon = true;
+    } else {
+      this.icon = false;
+    }
+  },
 };
 </script>
 
