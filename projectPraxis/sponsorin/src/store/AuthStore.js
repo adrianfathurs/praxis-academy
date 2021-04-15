@@ -34,8 +34,6 @@ export default ({
     async loginAct(context, payload) {
       var data = await AuthServices.verifyLogin(payload);
       var toks = data.token;
-      var decoded_token = jwt_decode(toks);
-      console.log(decoded_token);
       await context.commit('registDataUser', payload);
       await context.commit('accessToken', toks);
 
